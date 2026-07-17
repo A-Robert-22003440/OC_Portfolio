@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Booki</title>
+  <desc id="desc">Apercu stylise d une page d accueil de reservation avec recherche, filtres et cartes logements.</desc>
+  <rect width="960" height="640" rx="32" fill="#0065FC" />
+  <rect x="56" y="54" width="848" height="88" rx="22" fill="#ffffff" opacity="0.96" />
+  <rect x="78" y="78" width="140" height="40" rx="20" fill="#F2F2F2" />
+  <rect x="250" y="78" width="314" height="40" rx="20" fill="#F2F2F2" />
+  <rect x="584" y="78" width="274" height="40" rx="20" fill="#0065FC" opacity="0.9" />
+  <rect x="56" y="176" width="848" height="108" rx="28" fill="#ffffff" opacity="0.95" />
+  <circle cx="112" cy="228" r="24" fill="#DEEBFF" />
+  <rect x="158" y="204" width="240" height="16" rx="8" fill="#D9D9D9" />
+  <rect x="158" y="232" width="180" height="12" rx="6" fill="#E8E8E8" />
+  <rect x="56" y="324" width="544" height="250" rx="28" fill="#F2F2F2" />
+  <rect x="622" y="324" width="282" height="250" rx="28" fill="#F2F2F2" />
+  <g fill="#ffffff">
+    <rect x="86" y="356" width="160" height="88" rx="18" />
+    <rect x="260" y="356" width="160" height="88" rx="18" />
+    <rect x="434" y="356" width="136" height="88" rx="18" />
+    <rect x="86" y="460" width="160" height="88" rx="18" />
+    <rect x="260" y="460" width="160" height="88" rx="18" />
+    <rect x="434" y="460" width="136" height="88" rx="18" />
+  </g>
+  <g fill="#0065FC" font-family="Arial, sans-serif">
+    <text x="88" y="596" font-size="28" font-weight="700">Booki</text>
+    <text x="644" y="386" font-size="22" font-weight="700">Populaires</text>
+    <text x="644" y="424" font-size="16">Carte mise en avant</text>
+    <text x="644" y="452" font-size="16">et responsive mobile</text>
+  </g>
+</svg>

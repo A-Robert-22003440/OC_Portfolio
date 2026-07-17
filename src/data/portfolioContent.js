@@ -14,7 +14,7 @@ export const navLinks = [
 ]
 
 export const metrics = [
-  { value: '4', label: 'projets OC_DW valorises' },
+  { value: '6 + 2', label: 'projets formation et personnels' },
   { value: 'Front + Back', label: 'progression technique visible' },
   { value: 'React modulaire', label: 'base simple a maintenir' },
 ]
@@ -25,6 +25,43 @@ export const strengths = [
   'Une base React decoupee pour etre maintenable plus simplement par toi et par des agents IA',
 ]
 
+export const profilePitch = {
+  intro:
+    'Bonjour, je suis Prenom Nom, developpeur front-end React avec un fort intérêt pour les interfaces claires, l accessibilite et les systemes faciles a maintenir.',
+  acts: [
+    {
+      title: 'Accroche identitaire',
+      content:
+        'Je me presente comme un profil front-end qui aime traduire une intention produit en interface nette, lisible et efficace, avec une attention forte au detail.',
+    },
+    {
+      title: 'Parcours et legitime',
+      content:
+        'J ai construit mon parcours via la formation OpenClassrooms Developpeur Web, avec l envie d apprendre une discipline qui combine logique, design et resolution de probleme.',
+    },
+    {
+      title: 'Stack technique et expertise',
+      content:
+        'Je travaille principalement avec React, Sass, JavaScript, Vite et Node.js, tout en gardant une approche pragmatique sur la structuration, les routes et la maintenabilite.',
+    },
+    {
+      title: 'Projets marquants et impact',
+      content:
+        'Kasa et Mon Vieux Grimoire m ont appris a passer d une maquette a une application fonctionnelle, avec des enjeux de routing, de gestion des donnees et de separation des composants.',
+    },
+    {
+      title: 'Approche et differenciation',
+      content:
+        'Je privilegie une architecture simple, des composants reutilisables et une presentation qui parle autant a un recruteur qu a un agent IA amené a reprendre le code.',
+    },
+    {
+      title: 'Projection et ambitions',
+      content:
+        'Mon objectif est d integrer une equipe produit ou je pourrai continuer a progresser sur React, l accessibilite, la performance et la qualite de l experience utilisateur.',
+    },
+  ],
+}
+
 const commonLinks = (github) => [
   { label: 'Repository GitHub', href: github },
   { label: 'Demo live a ajouter', href: null },
@@ -32,6 +69,59 @@ const commonLinks = (github) => [
 ]
 
 export const projects = [
+  {
+    slug: 'booki',
+    category: 'Projet 2 OpenClassrooms',
+    title: 'Booki, page d accueil responsive orientee conversion',
+    hook:
+      'Transformer une maquette en page d accueil claire et efficace, avec recherche, filtres et cartes hebergements adaptées au mobile.',
+    preview: {
+      kind: 'blueprint',
+      src: '/OC_Portfolio/projects/booki-preview.svg',
+      alt: 'Apercu stylise du projet Booki',
+      caption: 'Landing page responsive avec recherche, filtres et cartes hebergements',
+    },
+    technologies: [
+      { name: 'HTML5', icon: 'html5', color: 'E34F26' },
+      { name: 'CSS3', icon: 'css', color: '1572B6' },
+      { name: 'Flexbox', icon: null, color: null },
+      { name: 'Responsive', icon: null, color: null },
+      { name: 'Accessibilite', icon: null, color: null },
+    ],
+    sections: [
+      {
+        label: 'Contexte',
+        content:
+          'Booki est le premier gros exercice d integration de la formation, centre sur la transformation d une maquette Figma en interface web fonctionnelle.',
+      },
+      {
+        label: 'Objectifs',
+        content:
+          'Reproduire fidèlement la maquette desktop et mobile, structurer la page en sections lisibles et mettre en avant un moteur de recherche et des filtres de navigation.',
+      },
+      {
+        label: 'Stack technique',
+        content:
+          'HTML sémantique, CSS, Flexbox, mise en page responsive et travail de hiérarchie visuelle pour les cartes et le formulaire de recherche.',
+      },
+      {
+        label: 'Competences developpees',
+        content:
+          'Lecture de maquette, intégration responsive, création de composants visuels simples et compréhension des contraintes d affichage multi-écran.',
+      },
+      {
+        label: 'Resultats et impact',
+        content:
+          'Le projet livre une page d accueil propre et crédible pour un produit de réservation, avec une structure claire et prête pour des évolutions plus fonctionnelles.',
+      },
+      {
+        label: 'Perspectives d amelioration',
+        content:
+          'Une amélioration naturelle serait d enrichir l accessibilité, d alléger davantage les styles et d ajouter plus d interactions de recherche.',
+      },
+    ],
+    links: commonLinks('https://github.com/A-Robert-22003440/OC_DW_Projet2_Robert_Alexandre'),
+  },
   {
     slug: 'sophie-bluel',
     category: 'Projet 3 OpenClassrooms',
@@ -246,6 +336,176 @@ export const projects = [
       },
     ],
     links: commonLinks('https://github.com/A-Robert-22003440/OC_DW_Projet6_Robert_Alexandre'),
+  },
+  {
+    slug: 'mon-vieux-grimoire-old',
+    category: 'Projet 6 - version initiale',
+    title: 'Mon Vieux Grimoire, première version React de la bibliothèque',
+    hook:
+      'Explorer l evolution d une application de livres côté front, avec navigation, affichage des ouvrages et premiers formulaires de contribution.',
+    preview: {
+      kind: 'blueprint',
+      src: '/OC_Portfolio/projects/grimoire-api-preview.svg',
+      alt: 'Apercu de la version initiale de Mon Vieux Grimoire',
+      caption: 'Version initiale orientee interface livre, connexion et ajout de contenu',
+    },
+    technologies: [
+      { name: 'React', icon: 'react', color: '61DAFB' },
+      { name: 'CSS Modules', icon: null, color: null },
+      { name: 'React Router', icon: 'reactrouter', color: 'CA4245' },
+      { name: 'React Hook Form', icon: null, color: null },
+      { name: 'Axios', icon: null, color: null },
+    ],
+    sections: [
+      {
+        label: 'Contexte',
+        content:
+          'Cette version precedente montre une interface React de bibliotheque avant le renforcement complet du backend securise.',
+      },
+      {
+        label: 'Objectifs',
+        content:
+          'Afficher les livres, gérer la connexion utilisateur, préparer l ajout et la modification de livres et structurer un parcours plus riche que la simple lecture.',
+      },
+      {
+        label: 'Stack technique',
+        content:
+          'React, React Router, Axios, formulaires contrôlés, CSS Modules, logique de connexion et composants réutilisables autour des ouvrages.',
+      },
+      {
+        label: 'Competences developpees',
+        content:
+          'Gestion d état, navigation, lecture d API, formulaires, contrôle des accès et structuration d une application multi-écrans.',
+      },
+      {
+        label: 'Resultats et impact',
+        content:
+          'Le projet apporte une base fonctionnelle pour comprendre le cycle complet du produit, entre consultation, connexion et contribution d ouvrages.',
+      },
+      {
+        label: 'Perspectives d amelioration',
+        content:
+          'La logique d authentification, de rating et de gestion de formulaires peut être consolidée par des composants plus explicitement découplés.',
+      },
+    ],
+    links: commonLinks('https://github.com/A-Robert-22003440/OC_DW_Projet6_Robert_Alexandre_old'),
+  },
+]
+
+export const personalProjects = [
+  {
+    slug: 'taskmaster',
+    category: 'Projet personnel concept',
+    title: 'Taskmaster, gestionnaire de tâches orienté concentration',
+    hook:
+      'Un outil personnel pensé pour prioriser les tâches, suivre l avancement et rendre la charge mentale plus lisible au quotidien.',
+    preview: {
+      kind: 'blueprint',
+      src: '/OC_Portfolio/projects/taskmaster-preview.svg',
+      alt: 'Apercu conceptuel de Taskmaster',
+      caption: 'Dashboard personnel avec priorités, calendrier et progression visuelle',
+    },
+    technologies: [
+      { name: 'React', icon: 'react', color: '61DAFB' },
+      { name: 'Sass', icon: 'sass', color: 'CC6699' },
+      { name: 'LocalStorage', icon: null, color: null },
+      { name: 'Animations', icon: null, color: null },
+      { name: 'Design system', icon: null, color: null },
+    ],
+    sections: [
+      {
+        label: 'Contexte',
+        content:
+          'Ce projet personnel répond a un besoin concret d organisation personnelle, avec l idée de produire un tableau de bord qui motive au lieu de surcharger.',
+      },
+      {
+        label: 'Objectifs',
+        content:
+          'Créer un suivi de tâches plus visuel qu une simple todo list, avec priorités, progression, filtres et une mise en avant du focus quotidien.',
+      },
+      {
+        label: 'Stack technique',
+        content:
+          'React, Sass, stockage local, composants d interface réutilisables et micro-interactions pour renforcer la sensation de fluidité.',
+      },
+      {
+        label: 'Competences developpees',
+        content:
+          'Conception produit, logique de priorisation, architecture front modulaire et création d un design system personnel cohérent.',
+      },
+      {
+        label: 'Resultats et impact',
+        content:
+          'Le concept apporte une vraie valeur ajoutée à mon profil car il montre une initiative autonome orientée usage quotidien et amélioration personnelle.',
+      },
+      {
+        label: 'Perspectives d amelioration',
+        content:
+          'On peut aller plus loin avec des notifications, une synchronisation multi-appareils et une persistance côté backend.',
+      },
+    ],
+    links: [
+      { label: 'Repository GitHub', href: 'https://github.com/A-Robert-22003440/OC_Portfolio', external: true },
+      { label: 'Demo live a ajouter', href: null },
+      { label: 'Video demo optionnelle', href: null },
+    ],
+  },
+  {
+    slug: 'culturelist',
+    category: 'Projet personnel concept',
+    title: 'Culturelist, plateforme de partage de ressources dev',
+    hook:
+      'Un espace pour centraliser des ressources, recommander du contenu et suivre ce qui vaut vraiment le détour dans la veille technique.',
+    preview: {
+      kind: 'blueprint',
+      src: '/OC_Portfolio/projects/culturelist-preview.svg',
+      alt: 'Apercu conceptuel de Culturelist',
+      caption: 'Plateforme de veille avec cartes de ressources, tags et favoris',
+    },
+    technologies: [
+      { name: 'React', icon: 'react', color: '61DAFB' },
+      { name: 'Sass', icon: 'sass', color: 'CC6699' },
+      { name: 'API', icon: null, color: null },
+      { name: 'Search', icon: null, color: null },
+      { name: 'Favoris', icon: null, color: null },
+    ],
+    sections: [
+      {
+        label: 'Contexte',
+        content:
+          'Ce projet personnel part d un besoin de veille structuré pour mieux organiser les contenus utiles à un developpeur junior.',
+      },
+      {
+        label: 'Objectifs',
+        content:
+          'Permettre de sauvegarder, classer et filtrer des ressources afin de transformer la veille en outil partageable et actionnable.',
+      },
+      {
+        label: 'Stack technique',
+        content:
+          'React, Sass, filtres de recherche, composants carte et architecture prête pour une API ou un backend de sauvegarde.',
+      },
+      {
+        label: 'Competences developpees',
+        content:
+          'Organisation d informations, logique de recherche, UX éditoriale et travail sur une présentation plus inspirée d une vraie plateforme produit.',
+      },
+      {
+        label: 'Resultats et impact',
+        content:
+          'Le projet valorise ma curiosité et ma capacité à créer un outil utile au-delà des exercices imposés par la formation.',
+      },
+      {
+        label: 'Perspectives d amelioration',
+        content:
+          'Une évolution naturelle serait d ajouter des comptes utilisateurs, du partage et une synchronisation cloud des sélections.',
+      },
+    ],
+    links: [
+      { label: 'Repository GitHub', href: 'https://github.com/A-Robert-22003440/OC_Portfolio', external: true },
+      { label: 'Demo live a ajouter', href: null },
+      { label: 'Video demo optionnelle', href: null },
+    ],
   },
 ]
 
