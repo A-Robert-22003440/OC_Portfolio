@@ -55,7 +55,7 @@ export const trainingHighlights = [
 
 export const profilePitch = {
   intro:
-    'Bonjour, je suis Alexandre Robert, developpeur front-end React avec un fort intérêt pour les interfaces claires, l accessibilite et les systemes faciles a maintenir.',
+    'Bonjour, je suis Alexandre Robert, developpeur web en formation chez OpenClassrooms, avec une base front-end React et un intérêt fort pour les interfaces claires, l accessibilite et les systemes faciles a maintenir.',
   acts: [
     {
       title: 'Accroche identitaire',
@@ -561,7 +561,7 @@ Longueur : 8 a 10 phrases maximum reparties sur les 6 sections.`
 
 export const contact = {
   description:
-    'Les liens ci-dessous peuvent etre adaptes a tes coordonnees professionnelles. La structure est deja prete pour afficher un email, un GitHub et un LinkedIn credibles.',
+    'Voici mes coordonnées professionnelles et mes principaux points de contact. Le portfolio est structuré pour que recruteur ou mentor identifie rapidement mon GitHub, mon profil LinkedIn et mon email.',
   links: [
     { label: 'Email professionnel', href: 'mailto:contact@exemple.fr', external: false },
     { label: 'GitHub', href: 'https://github.com/A-Robert-22003440', external: true },
