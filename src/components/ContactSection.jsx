@@ -18,9 +18,13 @@ function ContactSection({ contact }) {
             key={link.label}
             href={link.href}
             target={link.external ? '_blank' : undefined}
-            rel={link.external ? 'noreferrer' : undefined}
+            rel={link.external ? 'noopener noreferrer' : undefined}
+            aria-label={
+              link.external ? `${link.label} (ouvre dans un nouvel onglet)` : undefined
+            }
           >
             {link.label}
+            {link.external ? <span className="sr-only"> (ouvre dans un nouvel onglet)</span> : null}
           </a>
         ))}
       </div>

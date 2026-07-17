@@ -35,8 +35,15 @@ function ProjectCard({ project }) {
       <div className="project-links">
         {project.links.map((link) =>
           link.href ? (
-            <a key={link.label} href={link.href} target="_blank" rel="noreferrer">
+            <a
+              key={link.label}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${link.label} (ouvre dans un nouvel onglet)`}
+            >
               {link.label}
+              <span className="sr-only"> (ouvre dans un nouvel onglet)</span>
             </a>
           ) : (
             <span key={link.label} className="project-links__muted">

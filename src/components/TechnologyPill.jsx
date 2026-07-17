@@ -5,7 +5,8 @@ function TechnologyPill({ technology }) {
         <img
           className="tech-pill__icon"
           src={`https://cdn.simpleicons.org/${technology.icon}/${technology.color}`}
-          alt={technology.name}
+          alt=""
+          aria-hidden="true"
         />
       ) : (
         <span className="tech-pill__fallback" aria-hidden="true">

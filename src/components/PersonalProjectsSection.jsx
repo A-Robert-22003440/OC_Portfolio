@@ -5,7 +5,6 @@ function PersonalProjectsSection({ projects }) {
   return (
     <section id="projets-personnels" className="content-section content-section--personal">
       <SectionHeading
-        eyebrow="Etape 2"
         title="Projets personnels pour montrer autonomie et curiosité"
         description="Ces projets conceptuels complètent la formation en montrant une démarche plus personnelle : idée, design system, fonctionnalité additionnelle et projection technique."
         narrow

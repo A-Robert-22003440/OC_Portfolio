@@ -1,28 +1,56 @@
 export const profile = {
   firstName: 'Alexandre',
   lastName: 'Robert',
-  role: 'Developpeur front-end React',
+  role: 'Developpeur web en formation chez OpenClassrooms',
   intro:
-    'Je conçois des interfaces claires, responsives et soignees, avec une attention particuliere portee a l experience utilisateur et a la qualite de l integration.',
-  availability: 'Disponible pour alternance, freelance ou CDI',
+    'Je construis un portfolio qui met en avant mon parcours OpenClassrooms Developpeur Web, avec une progression visible du front-end vers React, Node.js et les bonnes pratiques de qualite web.',
+  availability: 'Disponible pour alternance, freelance ou CDI junior',
 }
 
 export const navLinks = [
   { href: '#projets', label: 'Projets' },
+  { href: '#formation', label: 'Formation' },
   { href: '#apropos', label: 'A propos' },
   { href: '#contact', label: 'Contact' },
 ]
 
 export const metrics = [
-  { value: '8 projets', label: 'formation et personnels' },
+  { value: '8 projets', label: 'parcours professionnalisant' },
+  { value: 'RNCP niveau 5', label: 'objectif de certification' },
   { value: 'Front + Back', label: 'progression technique visible' },
-  { value: 'React modulaire', label: 'base simple a maintenir' },
 ]
 
 export const strengths = [
-  'Une progression visible du HTML/CSS vers React et le backend Node.js',
-  'Des fiches projet structurees pour parler a la fois technique et metier',
+  'Une progression claire du HTML/CSS vers JavaScript, React et le backend Node.js',
+  'Des projets presentes comme des cas concrets de la formation OpenClassrooms',
   'Une base React decoupee pour rester simple a faire evoluer et a maintenir',
+]
+
+export const trainingHighlights = [
+  {
+    title: 'Projets professionnalisants',
+    label: 'Apprendre par la pratique',
+    content:
+      'Le parcours OpenClassrooms repose sur des cas concrets qui permettent de montrer une methode de travail, pas seulement un resultat visuel.',
+  },
+  {
+    title: 'Du front au back',
+    label: 'Progression technique',
+    content:
+      'Le portfolio illustre une montée en competence qui couvre HTML, CSS, JavaScript, React, Node.js, Express et MongoDB.',
+  },
+  {
+    title: 'SEO, performance et accessibilite',
+    label: 'Qualite web',
+    content:
+      'La formation met aussi l accent sur la maintenance, la visibilite et l accessibilite, trois axes que je rends visibles dans mes projets.',
+  },
+  {
+    title: 'Mentorat et autonomie',
+    label: 'Cadre de progression',
+    content:
+      'Le rythme du parcours valorise le mentorat, la redaction de livrables et la capacite a expliquer ses choix comme en contexte professionnel.',
+  },
 ]
 
 export const profilePitch = {
