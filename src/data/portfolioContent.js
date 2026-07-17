@@ -1,6 +1,6 @@
 export const profile = {
-  firstName: 'Prenom',
-  lastName: 'Nom',
+  firstName: 'Alexandre',
+  lastName: 'Robert',
   role: 'Developpeur front-end React',
   intro:
     'Je conçois des interfaces claires, responsives et soignees, avec une attention particuliere portee a l experience utilisateur et a la qualite de l integration.',
@@ -14,7 +14,7 @@ export const navLinks = [
 ]
 
 export const metrics = [
-  { value: '6 + 2', label: 'projets formation et personnels' },
+  { value: '8 projets', label: 'formation et personnels' },
   { value: 'Front + Back', label: 'progression technique visible' },
   { value: 'React modulaire', label: 'base simple a maintenir' },
 ]
@@ -22,12 +22,12 @@ export const metrics = [
 export const strengths = [
   'Une progression visible du HTML/CSS vers React et le backend Node.js',
   'Des fiches projet structurees pour parler a la fois technique et metier',
-  'Une base React decoupee pour etre maintenable plus simplement par toi et par des agents IA',
+  'Une base React decoupee pour rester simple a faire evoluer et a maintenir',
 ]
 
 export const profilePitch = {
   intro:
-    'Bonjour, je suis Prenom Nom, developpeur front-end React avec un fort intérêt pour les interfaces claires, l accessibilite et les systemes faciles a maintenir.',
+    'Bonjour, je suis Alexandre Robert, developpeur front-end React avec un fort intérêt pour les interfaces claires, l accessibilite et les systemes faciles a maintenir.',
   acts: [
     {
       title: 'Accroche identitaire',
@@ -35,7 +35,7 @@ export const profilePitch = {
         'Je me presente comme un profil front-end qui aime traduire une intention produit en interface nette, lisible et efficace, avec une attention forte au detail.',
     },
     {
-      title: 'Parcours et legitime',
+      title: 'Parcours et legitimite',
       content:
         'J ai construit mon parcours via la formation OpenClassrooms Developpeur Web, avec l envie d apprendre une discipline qui combine logique, design et resolution de probleme.',
     },
@@ -52,7 +52,7 @@ export const profilePitch = {
     {
       title: 'Approche et differenciation',
       content:
-        'Je privilegie une architecture simple, des composants reutilisables et une presentation qui parle autant a un recruteur qu a un agent IA amené a reprendre le code.',
+        'Je privilegie une architecture simple, des composants reutilisables et une presentation qui parle autant a un recruteur qu a un collaborateur amené a reprendre le code.',
     },
     {
       title: 'Projection et ambitions',
@@ -64,8 +64,8 @@ export const profilePitch = {
 
 const commonLinks = (github) => [
   { label: 'Repository GitHub', href: github },
-  { label: 'Demo live a ajouter', href: null },
-  { label: 'Video demo optionnelle', href: null },
+  { label: 'Demo disponible sur demande', href: null },
+  { label: 'Video de presentation sur demande', href: null },
 ]
 
 export const projects = [
@@ -339,8 +339,8 @@ export const projects = [
   },
   {
     slug: 'mon-vieux-grimoire-old',
-    category: 'Projet 6 - version initiale',
-    title: 'Mon Vieux Grimoire, première version React de la bibliothèque',
+    category: 'Projet 6 - prototype initial',
+    title: 'Mon Vieux Grimoire, prototype React initial de la bibliothèque',
     hook:
       'Explorer l evolution d une application de livres côté front, avec navigation, affichage des ouvrages et premiers formulaires de contribution.',
     preview: {
@@ -446,8 +446,8 @@ export const personalProjects = [
     ],
     links: [
       { label: 'Repository GitHub', href: 'https://github.com/A-Robert-22003440/OC_Portfolio', external: true },
-      { label: 'Demo live a ajouter', href: null },
-      { label: 'Video demo optionnelle', href: null },
+      { label: 'Prototype non deploye', href: null },
+      { label: 'Presentation sur demande', href: null },
     ],
   },
   {
@@ -503,8 +503,8 @@ export const personalProjects = [
     ],
     links: [
       { label: 'Repository GitHub', href: 'https://github.com/A-Robert-22003440/OC_Portfolio', external: true },
-      { label: 'Demo live a ajouter', href: null },
-      { label: 'Video demo optionnelle', href: null },
+      { label: 'Prototype non deploye', href: null },
+      { label: 'Presentation sur demande', href: null },
     ],
   },
 ]
@@ -533,9 +533,9 @@ Longueur : 8 a 10 phrases maximum reparties sur les 6 sections.`
 
 export const contact = {
   description:
-    'Tu peux maintenant remplacer ces liens par tes vraies coordonnees. La structure est deja prete pour afficher un email, un GitHub et un LinkedIn credibles.',
+    'Les liens ci-dessous peuvent etre adaptes a tes coordonnees professionnelles. La structure est deja prete pour afficher un email, un GitHub et un LinkedIn credibles.',
   links: [
-    { label: 'bonjour@exemple.fr', href: 'mailto:bonjour@exemple.fr', external: false },
+    { label: 'Email professionnel', href: 'mailto:contact@exemple.fr', external: false },
     { label: 'GitHub', href: 'https://github.com/A-Robert-22003440', external: true },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/', external: true },
   ],
