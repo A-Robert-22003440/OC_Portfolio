@@ -30,9 +30,10 @@ function App() {
           navLinks={navLinks}
           profile={profile}
         />
-        <section id="formation" className="content-section training-card">
+        <section id="formation" className="content-section training-card" aria-labelledby="formation-heading">
           <SectionHeading
             eyebrow="Formation OpenClassrooms"
+            headingId="formation-heading"
             title="Un parcours base sur des projets concrets et une progression visible"
             description="Le portfolio reprend les objectifs du parcours Developpeur Web: integrer des interfaces, dynamiser des pages, travailler avec React, construire un backend et valoriser la qualite web dans un cadre professionnalisant."
             narrow
@@ -48,9 +49,9 @@ function App() {
             ))}
           </div>
         </section>
-        <section id="apropos" className="content-section profile-card">
+        <section id="apropos" className="content-section profile-card" aria-labelledby="apropos-heading">
           <div className="section-heading">
-            <h2>Profil en 6 actes</h2>
+            <h2 id="apropos-heading">Profil en 6 actes</h2>
             <p className="section-copy section-copy--narrow">{profilePitch.intro}</p>
           </div>
 

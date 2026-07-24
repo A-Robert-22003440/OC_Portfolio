@@ -2,10 +2,11 @@ import SectionHeading from './SectionHeading'
 
 function ContactSection({ contact }) {
   return (
-    <section id="contact" className="content-section contact-card">
+    <section id="contact" className="content-section contact-card" aria-labelledby="contact-heading">
       <div>
         <SectionHeading
           eyebrow="Contact"
+          headingId="contact-heading"
           title="Pret a travailler ensemble ?"
           description={contact.description}
           narrow

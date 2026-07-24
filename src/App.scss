@@ -52,6 +52,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .topbar__links a,

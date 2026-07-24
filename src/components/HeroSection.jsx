@@ -6,11 +6,13 @@ function HeroSection({ profile, navLinks, metrics, cvContent }) {
   return (
     <header className="hero-section">
       <nav className="topbar" aria-label="Navigation principale">
-        <div className="topbar__links">
+        <ul className="topbar__links">
           {navLinks.map((link) => (
-            <a key={link.href} href={link.href}>{link.label}</a>
+            <li key={link.href}>
+              <a href={link.href}>{link.label}</a>
+            </li>
           ))}
-        </div>
+        </ul>
       </nav>
 
       <div className="hero-grid">
@@ -42,16 +44,27 @@ function HeroSection({ profile, navLinks, metrics, cvContent }) {
             href={cvContent.pdfPreviewUrl}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Ouvrir le CV PDF"
+            aria-label="Ouvrir l apercu du CV PDF (nouvel onglet)"
           >
-            <iframe title="Apercu du CV PDF" src={cvContent.pdfPreviewUrl} loading="lazy" />
+            <iframe
+              title="Apercu du CV PDF"
+              src={cvContent.pdfPreviewUrl}
+              loading="lazy"
+              tabIndex="-1"
+            />
           </a>
 
           <div className="cv-actions">
             <button type="button" className="button button--primary" onClick={handleOpenCv}>
               Ouvrir le CV
             </button>
-            <a className="button button--ghost" href={cvContent.pdfUrl} download={cvContent.fileName}>
+            <a
+              className="button button--ghost"
+              href={cvContent.pdfUrl}
+              download={cvContent.fileName}
+              aria-label="Telecharger le CV en PDF"
+              type="application/pdf"
+            >
               Telecharger en PDF
             </a>
           </div>

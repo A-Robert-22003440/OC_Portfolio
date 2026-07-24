@@ -3,8 +3,13 @@ import SectionHeading from './SectionHeading'
 
 function PersonalProjectsSection({ projects }) {
   return (
-    <section id="projets-personnels" className="content-section content-section--personal">
+    <section
+      id="projets-personnels"
+      className="content-section content-section--personal"
+      aria-labelledby="projets-personnels-heading"
+    >
       <SectionHeading
+        headingId="projets-personnels-heading"
         title="Projets personnels pour montrer autonomie et curiosité"
         description="Ces projets conceptuels complètent la formation en montrant une démarche plus personnelle : idée, design system, fonctionnalité additionnelle et projection technique."
         narrow
