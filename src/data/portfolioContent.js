@@ -26,6 +26,53 @@ export const strengths = [
   'Une base React decoupee pour rester simple a faire evoluer et a maintenir',
 ]
 
+export const cvContent = {
+  fileName: 'CV_Robert_Alexandre.pdf',
+  pdfUrl: '/OC_Portfolio/projects/CV_Robert_Alexandre.pdf',
+  pdfPreviewUrl: '/OC_Portfolio/projects/CV_Robert_Alexandre.pdf#toolbar=0&navpanes=0&scrollbar=0&page=1&view=FitH',
+  header: {
+    fullName: 'Alexandre Robert',
+    title: 'Alternance Developpeur Web',
+    age: '22 ans',
+    summary: [
+      'Etudiant en BUT Genie Chimique Genie des Procedes a l IUT de Caen.',
+      'Profil en reconversion vers le developpement web avec une base HTML, CSS, JavaScript et React.',
+    ],
+  },
+  contact: [
+    '35 rt de Saint Marcouf, 50340 Pierreville',
+    '06 33 67 97 61',
+    'alexandre.robert.22003440@gmail.com',
+    'LinkedIn disponible sur demande',
+  ],
+  sections: [
+    {
+      title: 'Formations',
+      items: [
+        '2020-2024: BUT Genie Chimique Genie des Procedes, IUT de Caen',
+        '2019-2020: Bac STL Biotechnologies, Lycee Jean Rostand de Caen',
+      ],
+    },
+    {
+      title: 'Experiences professionnelles',
+      items: [
+        'Orano DS (2024-2025): CDD data et digital, solution de capitalisation de donnees',
+        'Orano Temis (2024): Stage technicien superieur, analyse des actions sur la tenue a l irradiation',
+        'Maitres Laitiers du Cotentin (2023): nomenclature preventive laitier et integration GMAO',
+      ],
+    },
+    {
+      title: 'Engagements et qualites',
+      items: [
+        'Ambassadeur ODD en GCGP (2021-2023)',
+        'Representant CVEC en GCGP (2021-2022)',
+        'Delegue de promotion GCGP (2021-2023)',
+        'Qualites: Adaptabilite, Leadership, Reactivite, Flegme, Mobilite',
+      ],
+    },
+  ],
+}
+
 export const trainingHighlights = [
   {
     title: 'Projets professionnalisants',
@@ -541,8 +588,8 @@ export const contact = {
   description:
     'Voici mes coordonnées professionnelles et mes principaux points de contact. Le portfolio est structuré pour que recruteur ou mentor identifie rapidement mon GitHub, mon profil LinkedIn et mon email.',
   links: [
-    { label: 'Email professionnel', href: 'mailto:contact@exemple.fr', external: false },
+    { label: 'Email professionnel', href: 'mailto:alexandre.robert.22003440@gmail.com', external: false },
     { label: 'GitHub', href: 'https://github.com/A-Robert-22003440', external: true },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/', external: true },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/alexandre-robert-04a15b290', external: true },
   ],
 }

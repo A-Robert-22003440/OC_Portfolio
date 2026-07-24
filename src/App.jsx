@@ -6,6 +6,7 @@ import ProjectsSection from './components/ProjectsSection'
 import SectionHeading from './components/SectionHeading'
 import {
   contact,
+  cvContent,
   metrics,
   navLinks,
   profile,
@@ -13,7 +14,6 @@ import {
   personalProjects,
   projects,
   trainingHighlights,
-  strengths,
 } from './data/portfolioContent'
 
 function App() {
@@ -25,10 +25,10 @@ function App() {
 
       <main id="contenu-principal" className="page-shell">
         <HeroSection
+          cvContent={cvContent}
           metrics={metrics}
           navLinks={navLinks}
           profile={profile}
-          strengths={strengths}
         />
         <section id="formation" className="content-section training-card">
           <SectionHeading

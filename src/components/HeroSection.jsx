@@ -1,8 +1,11 @@
-function HeroSection({ profile, navLinks, strengths, metrics }) {
+function HeroSection({ profile, navLinks, metrics, cvContent }) {
+  const handleOpenCv = () => {
+    window.open(cvContent.pdfUrl, '_blank', 'noopener,noreferrer')
+  }
+
   return (
     <header className="hero-section">
       <nav className="topbar" aria-label="Navigation principale">
-        <span className="brand">{profile.firstName} {profile.lastName}</span>
         <div className="topbar__links">
           {navLinks.map((link) => (
             <a key={link.href} href={link.href}>{link.label}</a>
@@ -31,13 +34,28 @@ function HeroSection({ profile, navLinks, strengths, metrics }) {
           <p className="availability">{profile.availability}</p>
         </div>
 
-        <aside className="hero-panel" aria-label="Forces principales">
-          <p className="panel-label">Ce que vous trouverez ici</p>
-          <ul>
-            {strengths.map((strength) => (
-              <li key={strength}>{strength}</li>
-            ))}
-          </ul>
+        <aside className="hero-panel hero-panel--cv" aria-label="Bloc CV">
+          <p className="panel-label">Mon CV</p>
+
+          <a
+            className="cv-preview"
+            href={cvContent.pdfPreviewUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Ouvrir le CV PDF"
+          >
+            <iframe title="Apercu du CV PDF" src={cvContent.pdfPreviewUrl} loading="lazy" />
+          </a>
+
+          <div className="cv-actions">
+            <button type="button" className="button button--primary" onClick={handleOpenCv}>
+              Ouvrir le CV
+            </button>
+            <a className="button button--ghost" href={cvContent.pdfUrl} download={cvContent.fileName}>
+              Telecharger en PDF
+            </a>
+          </div>
+
         </aside>
       </div>
 
