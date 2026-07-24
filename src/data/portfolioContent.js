@@ -537,28 +537,6 @@ export const personalProjects = [
   },
 ]
 
-export const workflow = [
-  'Choisir les projets qui montrent une progression claire entre integration, interactivite, React et backend.',
-  'Reformuler chaque exercice comme une mission avec enjeux, objectifs et livrables identifiables.',
-  'Conserver une structure identique par projet pour rendre la lecture plus rapide cote recruteur.',
-]
-
-export const aiPrompt = `Contexte : Je suis developpeur web junior et je prepare mon portfolio professionnel.
-
-Voici les details de mon projet [NOM_PROJET] :
-[Description technique, technologies utilisees, difficultes rencontrees, solutions apportees]
-
-Mission : Aide-moi a rediger une fiche projet professionnelle structuree selon ce format :
-- Contexte
-- Objectifs
-- Stack technique
-- Competences developpees
-- Resultats et impact
-- Perspectives d amelioration
-
-Ton : Professionnel mais accessible.
-Longueur : 8 a 10 phrases maximum reparties sur les 6 sections.`
-
 export const contact = {
   description:
     'Voici mes coordonnées professionnelles et mes principaux points de contact. Le portfolio est structuré pour que recruteur ou mentor identifie rapidement mon GitHub, mon profil LinkedIn et mon email.',
