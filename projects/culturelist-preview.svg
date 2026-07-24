@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Culturelist</title>
+  <desc id="desc">Plateforme de veille avec cartes de ressources, tags et favoris.</desc>
+  <rect width="960" height="640" rx="32" fill="#fff7ed" />
+  <rect x="60" y="52" width="840" height="76" rx="22" fill="#fb923c" />
+  <rect x="84" y="76" width="180" height="20" rx="10" fill="#fff7ed" />
+  <rect x="84" y="104" width="120" height="10" rx="5" fill="#ffedd5" />
+  <rect x="60" y="162" width="840" height="70" rx="22" fill="#ffffff" stroke="#fdba74" />
+  <rect x="84" y="185" width="150" height="24" rx="12" fill="#fdba74" />
+  <rect x="252" y="185" width="110" height="24" rx="12" fill="#fed7aa" />
+  <rect x="380" y="185" width="92" height="24" rx="12" fill="#fed7aa" />
+  <rect x="60" y="258" width="252" height="278" rx="24" fill="#ffffff" stroke="#fdba74" />
+  <rect x="324" y="258" width="252" height="278" rx="24" fill="#ffffff" stroke="#fdba74" />
+  <rect x="588" y="258" width="312" height="278" rx="24" fill="#ffffff" stroke="#fdba74" />
+  <g fill="#7c2d12" font-family="Arial, sans-serif">
+    <text x="84" y="306" font-size="22" font-weight="700">Article react</text>
+    <text x="84" y="338" font-size="16">Tag: UI / performance</text>
+    <text x="84" y="370" font-size="16">Favori + lecture rapide</text>
+    <text x="348" y="306" font-size="22" font-weight="700">Outils dev</text>
+    <text x="348" y="338" font-size="16">Snippet, docs, APIs</text>
+    <text x="348" y="370" font-size="16">Filtre par thème</text>
+    <text x="612" y="306" font-size="22" font-weight="700">Veille quotidienne</text>
+    <text x="612" y="338" font-size="16">Liste sauvegardée</text>
+    <text x="612" y="370" font-size="16">partageable avec l équipe</text>
+  </g>
+</svg>
