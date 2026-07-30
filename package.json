@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --open /index.dev.html",
+    "dev": "vite --open",
     "build": "vite build",
     "publish:root": "npm run build && node scripts/publish-root.mjs",
     "lint": "eslint .",

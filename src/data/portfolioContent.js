@@ -17,9 +17,9 @@ export const profile = {
 }
 
 export const navLinks = [
-  { href: '#projets', label: 'Projets' },
   { href: '#formation', label: 'Formation' },
   { href: '#apropos', label: 'A propos' },
+  { href: '#projets', label: 'Projets' },
   { href: '#contact', label: 'Contact' },
 ]
 
