@@ -37,7 +37,7 @@ Pour republier la version actuelle du portfolio :
 
 ```bash
 npm run publish:root
-git add index.html assets projects favicon.svg icons.svg index.dev.html package.json package-lock.json vite.config.js scripts README.md
+git add index.html assets favicon.svg icons.svg index.dev.html package.json package-lock.json vite.config.js scripts README.md
 git commit -m "Publish updated portfolio"
 git push
 ```

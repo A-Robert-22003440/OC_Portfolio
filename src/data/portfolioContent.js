@@ -1,3 +1,12 @@
+import bookiPreview from '../assets/projects/booki-preview.svg'
+import culturelistPreview from '../assets/projects/culturelist-preview.svg'
+import cvPdf from '../assets/projects/CV_Robert_Alexandre.pdf'
+import grimoireApiPreview from '../assets/projects/grimoire-api-preview.svg'
+import kasaHomePreview from '../assets/projects/kasa-home.png'
+import ninaCarducciPreview from '../assets/projects/nina-carducci.webp'
+import sophieBluelPreview from '../assets/projects/sophie-bluel.png'
+import taskmasterPreview from '../assets/projects/taskmaster-preview.svg'
+
 export const profile = {
   firstName: 'Alexandre',
   lastName: 'Robert',
@@ -28,8 +37,8 @@ export const strengths = [
 
 export const cvContent = {
   fileName: 'CV_Robert_Alexandre.pdf',
-  pdfUrl: '/OC_Portfolio/projects/CV_Robert_Alexandre.pdf',
-  pdfPreviewUrl: '/OC_Portfolio/projects/CV_Robert_Alexandre.pdf#toolbar=0&navpanes=0&scrollbar=0&page=1&view=FitH',
+  pdfUrl: cvPdf,
+  pdfPreviewUrl: `${cvPdf}#toolbar=0&navpanes=0&scrollbar=0&page=1&view=FitH`,
   header: {
     fullName: 'Alexandre Robert',
     title: 'Alternance Developpeur Web',
@@ -152,7 +161,7 @@ export const projects = [
       'Transformer une maquette en page d accueil claire et efficace, avec recherche, filtres et cartes hebergements adaptées au mobile.',
     preview: {
       kind: 'blueprint',
-      src: '/OC_Portfolio/projects/booki-preview.svg',
+      src: bookiPreview,
       alt: 'Apercu stylise du projet Booki',
       caption: 'Landing page responsive avec recherche, filtres et cartes hebergements',
     },
@@ -205,7 +214,7 @@ export const projects = [
       'Faire evoluer un portfolio statique en interface interactive connectee a une API, avec login, mode edition et gestion de galerie.',
     preview: {
       kind: 'image',
-      src: '/OC_Portfolio/projects/sophie-bluel.png',
+      src: sophieBluelPreview,
       alt: 'Capture du portfolio Sophie Bluel',
       caption: 'Front office, filtres dynamiques et base d interface admin',
     },
@@ -259,7 +268,7 @@ export const projects = [
       'Optimiser un site existant de photographe pour le rendre plus visible, plus rapide et plus robuste sur les usages reels.',
     preview: {
       kind: 'image',
-      src: '/OC_Portfolio/projects/nina-carducci.webp',
+      src: ninaCarducciPreview,
       alt: 'Portrait de Nina Carducci utilise dans le site optimise',
       caption: 'Page vitrine avec meta SEO, images responsives et galerie filtrable',
     },
@@ -313,7 +322,7 @@ export const projects = [
       'Construire une application monopage complete en React a partir d une maquette, avec navigation, pages detail et composants reutilisables.',
     preview: {
       kind: 'image',
-      src: '/OC_Portfolio/projects/kasa-home.png',
+      src: kasaHomePreview,
       alt: 'Banniere de la page d accueil Kasa',
       caption: 'SPA React avec cartes logements, slideshow, collapse et route 404',
     },
@@ -366,7 +375,7 @@ export const projects = [
       'Concevoir un backend Node.js qui gere authentification, CRUD, notation et optimisation des images pour une application de recommandations.',
     preview: {
       kind: 'blueprint',
-      src: '/OC_Portfolio/projects/grimoire-api-preview.svg',
+      src: grimoireApiPreview,
       alt: 'Schema simplifie de l API Mon Vieux Grimoire',
       caption: 'API Express avec auth JWT, MongoDB, upload et compression d images',
     },
@@ -420,7 +429,7 @@ export const projects = [
       'Explorer l evolution d une application de livres côté front, avec navigation, affichage des ouvrages et premiers formulaires de contribution.',
     preview: {
       kind: 'blueprint',
-      src: '/OC_Portfolio/projects/grimoire-api-preview.svg',
+      src: grimoireApiPreview,
       alt: 'Apercu de la version initiale de Mon Vieux Grimoire',
       caption: 'Version initiale orientee interface livre, connexion et ajout de contenu',
     },
@@ -476,7 +485,7 @@ export const personalProjects = [
       'Un outil personnel pensé pour prioriser les tâches, suivre l avancement et rendre la charge mentale plus lisible au quotidien.',
     preview: {
       kind: 'blueprint',
-      src: '/OC_Portfolio/projects/taskmaster-preview.svg',
+      src: taskmasterPreview,
       alt: 'Apercu conceptuel de Taskmaster',
       caption: 'Dashboard personnel avec priorités, calendrier et progression visuelle',
     },
@@ -533,7 +542,7 @@ export const personalProjects = [
       'Un espace pour centraliser des ressources, recommander du contenu et suivre ce qui vaut vraiment le détour dans la veille technique.',
     preview: {
       kind: 'blueprint',
-      src: '/OC_Portfolio/projects/culturelist-preview.svg',
+      src: culturelistPreview,
       alt: 'Apercu conceptuel de Culturelist',
       caption: 'Plateforme de veille avec cartes de ressources, tags et favoris',
     },

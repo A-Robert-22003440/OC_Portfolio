@@ -7,7 +7,6 @@ const distDir = resolve(rootDir, 'dist')
 const copyTargets = [
   ['index.dev.html', 'index.html'],
   ['assets', 'assets'],
-  ['projects', 'projects'],
   ['favicon.svg', 'favicon.svg'],
   ['icons.svg', 'icons.svg'],
 ]
