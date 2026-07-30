@@ -1,4 +1,9 @@
 function HeroSection({ profile, navLinks, metrics, cvContent }) {
+  const sectionOrder = ['#formation', '#apropos', '#projets', '#contact']
+  const orderedNavLinks = sectionOrder
+    .map((href) => navLinks.find((link) => link.href === href))
+    .filter(Boolean)
+
   const handleOpenCv = () => {
     window.open(cvContent.pdfUrl, '_blank', 'noopener,noreferrer')
   }
@@ -7,7 +12,7 @@ function HeroSection({ profile, navLinks, metrics, cvContent }) {
     <header className="hero-section">
       <nav className="topbar" aria-label="Navigation principale">
         <ul className="topbar__links">
-          {navLinks.map((link) => (
+          {orderedNavLinks.map((link) => (
             <li key={link.href}>
               <a href={link.href}>{link.label}</a>
             </li>
