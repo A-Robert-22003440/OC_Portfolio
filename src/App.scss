@@ -653,14 +653,6 @@ h2 {
   .topbar {
     margin-bottom: 32px;
   }
-
-  .hero-copy {
-    padding: 4px 0 8px;
-  }
-
-  .cv-preview iframe {
-    height: 260px;
-  }
 }
 
 @media (max-width: 640px) {
@@ -669,53 +661,8 @@ h2 {
     padding-top: 12px;
   }
 
-  .hero-section,
-  .content-section {
-    padding: 18px 14px;
-    border-radius: 24px;
-  }
-
-  .topbar {
-    gap: 12px;
-    margin-bottom: 24px;
-  }
-
-  .topbar__links {
-    gap: 10px 12px;
-  }
-
-  .topbar__links a {
-    font-size: 0.95rem;
-  }
-
   h1 {
-    max-width: 100%;
     line-height: 1;
-    font-size: clamp(2.8rem, 12vw, 3.8rem);
-  }
-
-  .hero-role {
-    margin: 14px 0 10px;
-    font-size: 1rem;
-  }
-
-  .hero-intro,
-  .section-copy,
-  .project-card__hook,
-  .project-section-item p,
-  .training-card__item p,
-  .profile-act p {
-    font-size: 0.98rem;
-  }
-
-  .hero-actions {
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .button {
-    width: 100%;
-    min-height: 48px;
   }
 
   .hero-panel,
@@ -726,75 +673,7 @@ h2 {
     border-radius: 22px;
   }
 
-  .metrics {
-    gap: 12px;
-  }
-
-  .metric-card {
-    padding: 16px;
-  }
-
-  .metric-card strong {
-    font-size: 1.3rem;
-  }
-
-  .profile-act,
-  .training-card__item,
-  .project-card,
-  .project-section-item {
-    padding: 18px;
-  }
-
-  .project-card h3 {
-    font-size: clamp(1.5rem, 6vw, 2rem);
-  }
-
-  .project-visual,
-  .project-visual--image img {
-    min-height: 180px;
-  }
-
-  .cv-preview iframe {
-    height: 220px;
-  }
-
-  .contact-links {
-    gap: 10px;
-  }
-
-  .contact-links a {
-    padding: 14px 16px;
-  }
-}
-
-@media (max-width: 480px) {
-  .page-shell {
-    width: min(100% - 16px, 1120px);
-  }
-
-  .hero-section,
-  .content-section {
-    padding: 16px 12px;
-  }
-
-  h2 {
-    font-size: clamp(1.7rem, 7vw, 2.2rem);
-  }
-
-  .topbar__links {
-    gap: 8px 10px;
-  }
-
-  .topbar__links a {
-    font-size: 0.9rem;
-  }
-
-  .hero-actions .button {
-    font-size: 0.95rem;
-  }
-
-  .project-tech ul,
-  .project-links {
-    gap: 8px;
+  .button {
+    width: 100%;
   }
 }

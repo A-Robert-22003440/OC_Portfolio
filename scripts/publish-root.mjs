@@ -1,4 +1,4 @@
-import { cpSync, existsSync } from 'node:fs'
+import { cpSync, existsSync, lstatSync, rmSync } from 'node:fs'
 import { resolve } from 'node:path'
 
 const rootDir = process.cwd()
@@ -18,6 +18,13 @@ for (const [source, target] of copyTargets) {
 
   if (!existsSync(sourcePath)) {
     throw new Error(`Missing build output: ${source}`)
+  }
+
+  if (existsSync(targetPath)) {
+    const isDirectory = lstatSync(targetPath).isDirectory()
+    if (isDirectory) {
+      rmSync(targetPath, { recursive: true, force: true })
+    }
   }
 
   cpSync(sourcePath, targetPath, { force: true, recursive: true })
