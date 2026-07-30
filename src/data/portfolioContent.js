@@ -10,9 +10,9 @@ import taskmasterPreview from '../assets/projects/taskmaster-preview.svg'
 export const profile = {
   firstName: 'Alexandre',
   lastName: 'Robert',
-  role: 'Developpeur web en formation chez OpenClassrooms',
+  role: 'Développeur web en formation chez OpenClassrooms',
   intro:
-    'Je construis un portfolio qui met en avant mon parcours OpenClassrooms Developpeur Web, avec une progression visible du front-end vers React, Node.js et les bonnes pratiques de qualite web.',
+    'Je construis un portfolio qui met en avant mon parcours OpenClassrooms Développeur Web, avec une progression visible du front-end vers React, Node.js et les bonnes pratiques de qualité web.',
   availability: 'Disponible pour alternance, freelance ou CDI junior',
 }
 
@@ -31,8 +31,8 @@ export const metrics = [
 
 export const strengths = [
   'Une progression claire du HTML/CSS vers JavaScript, React et le backend Node.js',
-  'Des projets presentes comme des cas concrets de la formation OpenClassrooms',
-  'Une base React decoupee pour rester simple a faire evoluer et a maintenir',
+  'Des projets présentés comme des cas concrets de la formation OpenClassrooms',
+  'Une base React découpée pour rester simple à faire évoluer et à maintenir',
 ]
 
 export const cvContent = {
@@ -41,11 +41,11 @@ export const cvContent = {
   pdfPreviewUrl: `${cvPdf}#toolbar=0&navpanes=0&scrollbar=0&page=1&view=FitH`,
   header: {
     fullName: 'Alexandre Robert',
-    title: 'Alternance Developpeur Web',
+    title: 'Alternance Développeur Web',
     age: '22 ans',
     summary: [
-      'Etudiant en BUT Genie Chimique Genie des Procedes a l IUT de Caen.',
-      'Profil en reconversion vers le developpement web avec une base HTML, CSS, JavaScript et React.',
+      'Étudiant en BUT Génie Chimique Génie des Procédés à l\'IUT de Caen.',
+      'Profil en reconversion vers le développement web avec une base HTML, CSS, JavaScript et React.',
     ],
   },
   contact: [
@@ -58,25 +58,25 @@ export const cvContent = {
     {
       title: 'Formations',
       items: [
-        '2020-2024: BUT Genie Chimique Genie des Procedes, IUT de Caen',
-        '2019-2020: Bac STL Biotechnologies, Lycee Jean Rostand de Caen',
+        '2020-2024 : BUT Génie Chimique Génie des Procédés, IUT de Caen',
+        '2019-2020 : Bac STL Biotechnologies, Lycée Jean Rostand de Caen',
       ],
     },
     {
-      title: 'Experiences professionnelles',
+      title: 'Expériences professionnelles',
       items: [
-        'Orano DS (2024-2025): CDD data et digital, solution de capitalisation de donnees',
-        'Orano Temis (2024): Stage technicien superieur, analyse des actions sur la tenue a l irradiation',
-        'Maitres Laitiers du Cotentin (2023): nomenclature preventive laitier et integration GMAO',
+        'Orano DS (2024-2025) : CDD data et digital, solution de capitalisation de données',
+        'Orano Temis (2024) : stage technicien supérieur, analyse des actions sur la tenue à l\'irradiation',
+        'Maîtres Laitiers du Cotentin (2023) : nomenclature préventive laitière et intégration GMAO',
       ],
     },
     {
-      title: 'Engagements et qualites',
+      title: 'Engagements et qualités',
       items: [
         'Ambassadeur ODD en GCGP (2021-2023)',
-        'Representant CVEC en GCGP (2021-2022)',
-        'Delegue de promotion GCGP (2021-2023)',
-        'Qualites: Adaptabilite, Leadership, Reactivite, Flegme, Mobilite',
+        'Représentant CVEC en GCGP (2021-2022)',
+        'Délégué de promotion GCGP (2021-2023)',
+        'Qualités : adaptabilité, leadership, réactivité, flegme, mobilité',
       ],
     },
   ],
@@ -87,41 +87,41 @@ export const trainingHighlights = [
     title: 'Projets professionnalisants',
     label: 'Apprendre par la pratique',
     content:
-      'Le parcours OpenClassrooms repose sur des cas concrets qui permettent de montrer une methode de travail, pas seulement un resultat visuel.',
+      'Le parcours OpenClassrooms repose sur des cas concrets qui permettent de montrer une méthode de travail, pas seulement un résultat visuel.',
   },
   {
     title: 'Du front au back',
     label: 'Progression technique',
     content:
-      'Le portfolio illustre une montée en competence qui couvre HTML, CSS, JavaScript, React, Node.js, Express et MongoDB.',
+      'Le portfolio illustre une montée en compétence qui couvre HTML, CSS, JavaScript, React, Node.js, Express et MongoDB.',
   },
   {
-    title: 'SEO, performance et accessibilite',
-    label: 'Qualite web',
+    title: 'SEO, performance et accessibilité',
+    label: 'Qualité web',
     content:
-      'La formation met aussi l accent sur la maintenance, la visibilite et l accessibilite, trois axes que je rends visibles dans mes projets.',
+      'La formation met aussi l\'accent sur la maintenance, la visibilité et l\'accessibilité, trois axes que je rends visibles dans mes projets.',
   },
   {
     title: 'Mentorat et autonomie',
     label: 'Cadre de progression',
     content:
-      'Le rythme du parcours valorise le mentorat, la redaction de livrables et la capacite a expliquer ses choix comme en contexte professionnel.',
+      'Le rythme du parcours valorise le mentorat, la rédaction de livrables et la capacité à expliquer ses choix comme en contexte professionnel.',
   },
 ]
 
 export const profilePitch = {
   intro:
-    'Bonjour, je suis Alexandre Robert, developpeur web en formation chez OpenClassrooms, avec une base front-end React et un intérêt fort pour les interfaces claires, l accessibilite et les systemes faciles a maintenir.',
+    'Bonjour, je suis Alexandre Robert, développeur web en formation chez OpenClassrooms, avec une base front-end React et un intérêt fort pour les interfaces claires, l\'accessibilité et les systèmes faciles à maintenir.',
   acts: [
     {
       title: 'Accroche identitaire',
       content:
-        'Je me presente comme un profil front-end qui aime traduire une intention produit en interface nette, lisible et efficace, avec une attention forte au detail.',
+        'Je me présente comme un profil front-end qui aime traduire une intention produit en interface nette, lisible et efficace, avec une attention forte au détail.',
     },
     {
-      title: 'Parcours et legitimite',
+      title: 'Parcours et légitimité',
       content:
-        'J ai construit mon parcours via la formation OpenClassrooms Developpeur Web, avec l envie d apprendre une discipline qui combine logique, design et resolution de probleme.',
+        'J\'ai construit mon parcours via la formation OpenClassrooms Développeur Web, avec l\'envie d\'apprendre une discipline qui combine logique, design et résolution de problème.',
     },
     {
       title: 'Stack technique et expertise',
@@ -131,17 +131,17 @@ export const profilePitch = {
     {
       title: 'Projets marquants et impact',
       content:
-        'Kasa et Mon Vieux Grimoire m ont appris a passer d une maquette a une application fonctionnelle, avec des enjeux de routing, de gestion des donnees et de separation des composants.',
+        'Kasa et Mon Vieux Grimoire m\'ont appris à passer d\'une maquette à une application fonctionnelle, avec des enjeux de routing, de gestion des données et de séparation des composants.',
     },
     {
-      title: 'Approche et differenciation',
+      title: 'Approche et différenciation',
       content:
-        'Je privilegie une architecture simple, des composants reutilisables et une presentation qui parle autant a un recruteur qu a un collaborateur amené a reprendre le code.',
+        'Je privilégie une architecture simple, des composants réutilisables et une présentation qui parle autant à un recruteur qu\'à un collaborateur amené à reprendre le code.',
     },
     {
       title: 'Projection et ambitions',
       content:
-        'Mon objectif est d integrer une equipe produit ou je pourrai continuer a progresser sur React, l accessibilite, la performance et la qualite de l experience utilisateur.',
+        'Mon objectif est d\'intégrer une équipe produit où je pourrai continuer à progresser sur React, l\'accessibilité, la performance et la qualité de l\'expérience utilisateur.',
     },
   ],
 }
@@ -156,9 +156,9 @@ export const projects = [
   {
     slug: 'booki',
     category: 'Projet 2 OpenClassrooms',
-    title: 'Booki, page d accueil responsive orientee conversion',
+    title: 'Booki, page d\'accueil responsive orientée conversion',
     hook:
-      'Transformer une maquette en page d accueil claire et efficace, avec recherche, filtres et cartes hebergements adaptées au mobile.',
+      'Transformer une maquette en page d\'accueil claire et efficace, avec recherche, filtres et cartes hébergements adaptées au mobile.',
     preview: {
       kind: 'blueprint',
       src: bookiPreview,
@@ -176,7 +176,7 @@ export const projects = [
       {
         label: 'Contexte',
         content:
-          'Booki est le premier gros exercice d integration de la formation, centre sur la transformation d une maquette Figma en interface web fonctionnelle.',
+          'Booki est le premier gros exercice d\'intégration de la formation, centré sur la transformation d\'une maquette Figma en interface web fonctionnelle.',
       },
       {
         label: 'Objectifs',
@@ -189,19 +189,19 @@ export const projects = [
           'HTML sémantique, CSS, Flexbox, mise en page responsive et travail de hiérarchie visuelle pour les cartes et le formulaire de recherche.',
       },
       {
-        label: 'Competences developpees',
+        label: 'Compétences développées',
         content:
-          'Lecture de maquette, intégration responsive, création de composants visuels simples et compréhension des contraintes d affichage multi-écran.',
+          'Lecture de maquette, intégration responsive, création de composants visuels simples et compréhension des contraintes d\'affichage multi-écran.',
       },
       {
-        label: 'Resultats et impact',
+        label: 'Résultats et impact',
         content:
-          'Le projet livre une page d accueil propre et crédible pour un produit de réservation, avec une structure claire et prête pour des évolutions plus fonctionnelles.',
+          'Le projet livre une page d\'accueil propre et crédible pour un produit de réservation, avec une structure claire et prête pour des évolutions plus fonctionnelles.',
       },
       {
-        label: 'Perspectives d amelioration',
+        label: 'Perspectives d\'amélioration',
         content:
-          'Une amélioration naturelle serait d enrichir l accessibilité, d alléger davantage les styles et d ajouter plus d interactions de recherche.',
+          'Une amélioration naturelle serait d\'enrichir l\'accessibilité, d\'alléger davantage les styles et d\'ajouter plus d\'interactions de recherche.',
       },
     ],
     links: commonLinks('https://github.com/A-Robert-22003440/OC_DW_Projet2_Robert_Alexandre'),
@@ -211,7 +211,7 @@ export const projects = [
     category: 'Projet 3 OpenClassrooms',
     title: 'Sophie Bluel, portfolio dynamique avec interface d administration',
     hook:
-      'Faire evoluer un portfolio statique en interface interactive connectee a une API, avec login, mode edition et gestion de galerie.',
+      'Faire évoluer un portfolio statique en interface interactive connectée à une API, avec login, mode édition et gestion de galerie.',
     preview: {
       kind: 'image',
       src: sophieBluelPreview,
@@ -230,32 +230,32 @@ export const projects = [
       {
         label: 'Contexte',
         content:
-          'Ce projet repose sur un portfolio d architecte d interieur qu il fallait rendre dynamique, en connectant un frontend vanilla a un backend expose via API.',
+          'Ce projet repose sur un portfolio d\'architecte d\'intérieur qu\'il fallait rendre dynamique, en connectant un frontend vanilla à un backend exposé via API.',
       },
       {
         label: 'Objectifs',
         content:
-          'Afficher les travaux depuis l API, filtrer les projets par categorie, ajouter une authentification et proposer un mode edition avec ajout et suppression de contenus.',
+          'Afficher les travaux depuis l\'API, filtrer les projets par catégorie, ajouter une authentification et proposer un mode édition avec ajout et suppression de contenus.',
       },
       {
         label: 'Stack technique',
         content:
-          'HTML, CSS et JavaScript cote navigateur, avec un backend Express, Sequelize, SQLite, JWT, upload d images et documentation Swagger.',
+          'HTML, CSS et JavaScript côté navigateur, avec un backend Express, Sequelize, SQLite, JWT, upload d\'images et documentation Swagger.',
       },
       {
-        label: 'Competences developpees',
+        label: 'Compétences développées',
         content:
-          'Manipulation avancee du DOM, appels fetch, gestion de token, conception de modale, formulaires multipart et lecture d une architecture front/back simple.',
+          'Manipulation avancée du DOM, appels fetch, gestion de token, conception de modale, formulaires multipart et lecture d\'une architecture front/back simple.',
       },
       {
-        label: 'Resultats et impact',
+        label: 'Résultats et impact',
         content:
-          'Le site passe d une simple galerie a un outil administrable, avec filtres, login, interface d edition et synchronisation des donnees avec le backend.',
+          'Le site passe d\'une simple galerie à un outil administrable, avec filtres, login, interface d\'édition et synchronisation des données avec le backend.',
       },
       {
-        label: 'Perspectives d amelioration',
+        label: 'Perspectives d\'amélioration',
         content:
-          'Le prochain levier logique serait de migrer cette interface vers React pour mieux separer les composants, les etats et les interactions UI.',
+          'Le prochain levier logique serait de migrer cette interface vers React pour mieux séparer les composants, les états et les interactions UI.',
       },
     ],
     links: commonLinks('https://github.com/A-Robert-22003440/OC_DW_Projet3_Robert_Alexandre'),
@@ -289,22 +289,22 @@ export const projects = [
       {
         label: 'Objectifs',
         content:
-          'Ameliorer les performances, enrichir le balisage SEO, rendre les images plus efficaces et verifier la compatibilite responsive et accessibilite.',
+          'Améliorer les performances, enrichir le balisage SEO, rendre les images plus efficaces et vérifier la compatibilité responsive et accessibilité.',
       },
       {
         label: 'Stack technique',
         content:
-          'HTML, CSS, JavaScript, Bootstrap, jQuery, galerie filtree, donnees structurees LocalBusiness et images converties en WebP avec srcset.',
+          'HTML, CSS, JavaScript, Bootstrap, jQuery, galerie filtrée, données structurées LocalBusiness et images converties en WebP avec srcset.',
       },
       {
-        label: 'Competences developpees',
+        label: 'Compétences développées',
         content:
-          'Audit de performance, optimisation d assets, travail sur les metadonnees, bonnes pratiques Lighthouse et lecture critique d un site deja existant.',
+          'Audit de performance, optimisation d\'assets, travail sur les métadonnées, bonnes pratiques Lighthouse et lecture critique d\'un site déjà existant.',
       },
       {
-        label: 'Resultats et impact',
+        label: 'Résultats et impact',
         content:
-          'Le projet montre une capacite a traiter la qualite percue et la qualite technique ensemble, avec une vitrine plus legere, plus semantique et plus exploitable.',
+          'Le projet montre une capacité à traiter la qualité perçue et la qualité technique ensemble, avec une vitrine plus légère, plus sémantique et plus exploitable.',
       },
       {
         label: 'Perspectives d amelioration',
@@ -342,7 +342,7 @@ export const projects = [
       {
         label: 'Objectifs',
         content:
-          'Mettre en place le routing, construire les composants d interface, afficher les details d un logement et gerer les cas d erreur avec une page 404.',
+          'Mettre en place le routing, construire les composants d\'interface, afficher les détails d\'un logement et gérer les cas d\'erreur avec une page 404.',
       },
       {
         label: 'Stack technique',
@@ -355,9 +355,9 @@ export const projects = [
           'Decoupage en composants, gestion d etat local, navigation front, composition d interfaces et mise en place d une base de projet moderne.',
       },
       {
-        label: 'Resultats et impact',
+        label: 'Résultats et impact',
         content:
-          'Le projet met en avant une application React complete avec banniere, grille de cartes, slideshow, collapses et detail logement route par identifiant.',
+          'Le projet met en avant une application React complète avec bannière, grille de cartes, slideshow, collapses et détail logement routé par identifiant.',
       },
       {
         label: 'Perspectives d amelioration',
@@ -396,7 +396,7 @@ export const projects = [
       {
         label: 'Objectifs',
         content:
-          'Creer les routes de livres et d authentification, proteger les operations, gerer l upload d images et calculer correctement la moyenne des notes.',
+          'Créer les routes de livres et d\'authentification, protéger les opérations, gérer l\'upload d\'images et calculer correctement la moyenne des notes.',
       },
       {
         label: 'Stack technique',
@@ -500,7 +500,7 @@ export const personalProjects = [
       {
         label: 'Contexte',
         content:
-          'Ce projet personnel répond a un besoin concret d organisation personnelle, avec l idée de produire un tableau de bord qui motive au lieu de surcharger.',
+          'Ce projet personnel répond à un besoin concret d\'organisation personnelle, avec l\'idée de produire un tableau de bord qui motive au lieu de surcharger.',
       },
       {
         label: 'Objectifs',
