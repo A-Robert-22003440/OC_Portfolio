@@ -14,8 +14,8 @@ npm run dev
 ```bash
 npm run dev
 npm run build
+npm run publish:root
 npm run lint
-npm run deploy
 ```
 
 ## Personnalisation rapide
@@ -26,39 +26,58 @@ npm run deploy
 
 ## Deploiement GitHub Pages
 
-Le projet est configure pour etre publie sur le depot GitHub Pages suivant :
+Le site public est servi directement depuis la branche main du depot :
 
 https://a-robert-22003440.github.io/OC_Portfolio/
+
+Le fichier [index.dev.html](index.dev.html) sert d'entree source pour Vite.
+Le fichier [index.html](index.html) a la racine correspond a la version publiee.
+
+Pour republier la version actuelle du portfolio :
+
+```bash
+npm run publish:root
+git add index.html assets projects favicon.svg icons.svg index.dev.html package.json package-lock.json vite.config.js scripts README.md
+git commit -m "Publish updated portfolio"
+git push
+```
 
 Si le nom du depot change, pense a mettre a jour :
 
 - la propriete homepage dans package.json
 - la valeur base dans vite.config.js
 
-## Configuration GitHub (a faire une seule fois)
-
-1. Va dans GitHub > ton depot > Settings > Pages.
-2. Dans Build and deployment, choisis Deploy from a branch.
-3. Selectionne la branche gh-pages et le dossier /(root), puis Save.
-
-## Deploiement recommande (automatique)
-
-Un workflow GitHub Actions est fourni dans .github/workflows/deploy-gh-pages.yml.
-
-- A chaque push sur main, le site est reconstruit et publie sur gh-pages.
-- Tu peux aussi le lancer manuellement dans l'onglet Actions (workflow_dispatch).
-
-## Deploiement manuel (optionnel)
-
-Puis lance :
-
-```bash
-npm run deploy
-```
-
 ## Checklist si la page ne marche pas
 
 - Verifie que l'URL correspond bien a la valeur homepage.
-- Verifie dans Actions que le workflow Deploy GitHub Pages est en succes.
-- Verifie dans Settings > Pages que la source est bien gh-pages /(root).
+- Verifie dans Settings > Pages que la source est bien main /(root).
+- Relance npm run publish:root si tu viens de modifier l'application React.
 - Attends 1 a 3 minutes apres un deploiement (propagation GitHub Pages).
+*** Delete File: c:\Users\user\Documents\OC\Portfolio\OC_Portfolio\.github\workflows\deploy-gh-pages.yml
+*** Add File: c:\Users\user\Documents\OC\Portfolio\OC_Portfolio\scripts\publish-root.mjs
+import { cpSync, existsSync } from 'node:fs'
+import { resolve } from 'node:path'
+
+const rootDir = process.cwd()
+const distDir = resolve(rootDir, 'dist')
+
+const copyTargets = [
+	['index.dev.html', 'index.html'],
+	['assets', 'assets'],
+	['projects', 'projects'],
+	['favicon.svg', 'favicon.svg'],
+	['icons.svg', 'icons.svg'],
+]
+
+for (const [source, target] of copyTargets) {
+	const sourcePath = resolve(distDir, source)
+	const targetPath = resolve(rootDir, target)
+
+	if (!existsSync(sourcePath)) {
+		throw new Error(`Missing build output: ${source}`)
+	}
+
+	cpSync(sourcePath, targetPath, { force: true, recursive: true })
+}
+
+console.log('Root publication files synchronized from dist/.')
