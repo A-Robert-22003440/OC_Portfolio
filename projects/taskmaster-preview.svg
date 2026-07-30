@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Taskmaster</title>
+  <desc id="desc">Dashboard personnel avec priorites, calendrier et progression visuelle.</desc>
+  <rect width="960" height="640" rx="32" fill="#0f172a" />
+  <rect x="54" y="54" width="852" height="92" rx="24" fill="#111827" stroke="#334155" />
+  <rect x="78" y="80" width="220" height="20" rx="10" fill="#94a3b8" />
+  <rect x="78" y="110" width="140" height="12" rx="6" fill="#475569" />
+  <rect x="54" y="180" width="276" height="388" rx="28" fill="#111827" stroke="#334155" />
+  <rect x="342" y="180" width="560" height="388" rx="28" fill="#111827" stroke="#334155" />
+  <rect x="82" y="214" width="200" height="46" rx="18" fill="#1e293b" />
+  <rect x="82" y="274" width="200" height="46" rx="18" fill="#1e293b" />
+  <rect x="82" y="334" width="200" height="46" rx="18" fill="#1e293b" />
+  <rect x="82" y="394" width="200" height="46" rx="18" fill="#1e293b" />
+  <rect x="82" y="454" width="200" height="46" rx="18" fill="#1e293b" />
+  <rect x="370" y="214" width="220" height="136" rx="22" fill="#1d4ed8" />
+  <rect x="616" y="214" width="220" height="136" rx="22" fill="#7c3aed" />
+  <rect x="370" y="372" width="466" height="136" rx="22" fill="#0f766e" />
+  <g fill="#f8fafc" font-family="Arial, sans-serif">
+    <text x="84" y="228" font-size="18">Priorité haute</text>
+    <text x="84" y="288" font-size="18">Focus aujourd hui</text>
+    <text x="84" y="348" font-size="18">En cours</text>
+    <text x="84" y="408" font-size="18">En attente</text>
+    <text x="84" y="468" font-size="18">Terminé</text>
+    <text x="394" y="252" font-size="24" font-weight="700">12 tâches</text>
+    <text x="394" y="282" font-size="16">progression semaine</text>
+    <text x="640" y="252" font-size="24" font-weight="700">Focus</text>
+    <text x="640" y="282" font-size="16">mode concentration</text>
+    <text x="394" y="410" font-size="24" font-weight="700">Calendrier</text>
+    <text x="394" y="440" font-size="16">vue simple des deadlines</text>
+  </g>
+</svg>

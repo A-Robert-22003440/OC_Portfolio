@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Mon Vieux Grimoire API</title>
+  <desc id="desc">Schema simplifie d une API Express avec JWT, MongoDB et traitement d images.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22160e" />
+      <stop offset="100%" stop-color="#ff6f3c" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" rx="32" fill="url(#bg)" />
+  <rect x="64" y="72" width="264" height="132" rx="24" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.24)" />
+  <rect x="348" y="254" width="264" height="132" rx="24" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.24)" />
+  <rect x="632" y="72" width="264" height="132" rx="24" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.24)" />
+  <rect x="632" y="436" width="264" height="132" rx="24" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.24)" />
+  <rect x="64" y="436" width="264" height="132" rx="24" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.24)" />
+  <g fill="#fff8f0" font-family="Arial, sans-serif">
+    <text x="96" y="120" font-size="22" font-weight="700">Auth JWT</text>
+    <text x="96" y="154" font-size="18">signup / login</text>
+    <text x="96" y="178" font-size="18">bcrypt + token 24h</text>
+    <text x="380" y="302" font-size="22" font-weight="700">API Express</text>
+    <text x="380" y="336" font-size="18">CRUD livres</text>
+    <text x="380" y="360" font-size="18">notes et best rating</text>
+    <text x="664" y="120" font-size="22" font-weight="700">MongoDB</text>
+    <text x="664" y="154" font-size="18">Mongoose models</text>
+    <text x="664" y="178" font-size="18">ratings + averageRating</text>
+    <text x="664" y="484" font-size="22" font-weight="700">Images</text>
+    <text x="664" y="518" font-size="18">Multer memory storage</text>
+    <text x="664" y="542" font-size="18">Sharp resize + jpeg</text>
+    <text x="96" y="484" font-size="22" font-weight="700">Routes metier</text>
+    <text x="96" y="518" font-size="18">/api/books</text>
+    <text x="96" y="542" font-size="18">/api/auth</text>
+  </g>
+  <g stroke="#fff8f0" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M328 138 H440 V254" />
+    <path d="M612 320 H744 V204" />
+    <path d="M612 320 H744 V436" />
+    <path d="M348 320 H216 V436" />
+  </g>
+</svg>
