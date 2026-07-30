@@ -14,7 +14,7 @@ npm run dev
 ```bash
 npm run dev
 npm run build
-npm run publish:root
+npm run publish:docs
 npm run lint
 ```
 
@@ -26,18 +26,18 @@ npm run lint
 
 ## Deploiement GitHub Pages
 
-Le site public est servi directement depuis la branche main du depot :
+Le site public est servi depuis le dossier docs de la branche main :
 
 https://a-robert-22003440.github.io/OC_Portfolio/
 
-Le fichier [index.dev.html](index.dev.html) sert d'entree source pour Vite.
-Le fichier [index.html](index.html) a la racine correspond a la version publiee.
+Le fichier [index.html](index.html) est l'unique entree source pour Vite.
+La version publiee est generee automatiquement dans le dossier docs.
 
 Pour republier la version actuelle du portfolio :
 
 ```bash
-npm run publish:root
-git add index.html assets favicon.svg icons.svg index.dev.html package.json package-lock.json vite.config.js scripts README.md
+npm run publish:docs
+git add docs package.json package-lock.json vite.config.js README.md
 git commit -m "Publish updated portfolio"
 git push
 ```
@@ -50,6 +50,6 @@ Si le nom du depot change, pense a mettre a jour :
 ## Checklist si la page ne marche pas
 
 - Verifie que l'URL correspond bien a la valeur homepage.
-- Verifie dans Settings > Pages que la source est bien main /(root).
-- Relance npm run publish:root si tu viens de modifier l'application React.
+- Verifie dans Settings > Pages que la source est bien main /docs.
+- Relance npm run publish:docs si tu viens de modifier l'application React.
 - Attends 1 a 3 minutes apres un deploiement (propagation GitHub Pages).

@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
-    "publish:root": "npm run build && node scripts/publish-root.mjs",
+    "publish:docs": "npm run build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
